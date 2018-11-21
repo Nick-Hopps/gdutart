@@ -119,7 +119,7 @@
         \zihao{3}
         学\qquad\,院\quad\,\underline{\makebox[7cm][c]{\GDUT@info@college}}\medskip \\
         专\qquad\,业\quad\,\underline{\makebox[7cm][c]{\GDUT@info@major}}\medskip   \\
-        年纪班别\quad\,\underline{\makebox[7cm][c]{\GDUT@info@grade}}\medskip       \\
+        年级班别\quad\,\underline{\makebox[7cm][c]{\GDUT@info@grade}}\medskip       \\
         学\qquad\,号\quad\,\underline{\makebox[7cm][c]{\GDUT@info@stuid}}\medskip   \\
         学生姓名\quad\,\underline{\makebox[7cm][c]{\GDUT@info@name}}\medskip        \\
         指导老师\quad\,\underline{\makebox[7cm][c]{\GDUT@info@teacher}}\medskip
