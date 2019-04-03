@@ -50,7 +50,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 字体设置
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newfontfamily\heiti@num{SimHei}[AutoFakeBold=2]
+\newfontfamily\heiti@num{SimHei}[AutoFakeBold=1]
+\newfontfamily\heiti@num@bold{SimHei}[AutoFakeBold=2]
 \setCJKfamilyfont{heiti@bold}{SimHei}[AutoFakeBold=2]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -67,7 +68,7 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % 自定义目录样式
-\renewcommand{\contentsname}{\bfseries\zihao{3} \hspace*{\fill}目 \qquad 录\hspace*{\fill}}
+\renewcommand{\contentsname}{\bfseries\CJKfamily{heiti@bold}\zihao{3} \hspace*{\fill}目 \qquad 录\hspace*{\fill}}
 \renewcommand{\cftdot}{$\cdot$}
 \renewcommand{\cftdotsep}{1.5}
 \setlength{\cftbeforesecskip}{10pt}
@@ -88,8 +89,8 @@
 %% 正文样式
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 自定义章节样式
-\titleformat{\section}{\bfseries\CJKfamily{heiti@bold}\zihao{3}\centering}{\heiti@num\thesection\quad}{0pt}{}
-\titleformat{\subsection}{\bfseries\CJKfamily{heiti@bold}\zihao{-4}}{\heiti@num\thesubsection\quad}{0pt}{}
+\titleformat{\section}{\bfseries\CJKfamily{heiti@bold}\zihao{3}\centering}{\heiti@num@bold\thesection\quad}{0pt}{}
+\titleformat{\subsection}{\bfseries\CJKfamily{heiti@bold}\zihao{-4}}{\heiti@num@bold\thesubsection\quad}{0pt}{}
 \titleformat{\subsubsection}{\heiti\zihao{-4}}{\heiti@num\thesubsubsection\quad}{0pt}{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,12 +107,12 @@
       \begin{center}\bfseries\zihao{3}
         学\qquad\,院\quad\,\underline{\makebox[7cm][c]{\GDUT@info@college}}\medskip \\
         专\qquad\,业\quad\,\underline{\makebox[7cm][c]{\GDUT@info@major}}\medskip   \\
-        年级班别\quad\,\underline{\makebox[7cm][c]{\heiti@num\mdseries\GDUT@info@grade}}\medskip       \\
-        学\qquad\,号\quad\,\underline{\makebox[7cm][c]{\heiti@num\mdseries\GDUT@info@stuid}}\medskip   \\
+        年级班别\quad\,\underline{\makebox[7cm][c]{\heiti@num\GDUT@info@grade}}\medskip       \\
+        学\qquad\,号\quad\,\underline{\makebox[7cm][c]{\heiti@num\GDUT@info@stuid}}\medskip   \\
         学生姓名\quad\,\underline{\makebox[7cm][c]{\GDUT@info@name}}\medskip        \\
         指导老师\quad\,\underline{\makebox[7cm][c]{\GDUT@info@teacher}}\medskip
       \end{center}\vfill
-      \renewcommand{\today}{\bfseries {\heiti@num\mdseries\number\year} 年 {\heiti@num\mdseries\number\month} 月}
+      \renewcommand{\today}{\bfseries {\heiti@num\number\year} 年 {\heiti@num\number\month} 月}
       \makebox[\textwidth][c]{\zihao{3}\today}
     \end{minipage}%
     \clearpage%
