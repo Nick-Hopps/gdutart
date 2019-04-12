@@ -5,7 +5,7 @@
 ```latex
 \documentclass{gdutart}
 \infosetup{
-  subject = XXX课程设计,
+  subject = 本科毕业设计/论文,
   topic   = 题目,
   college = 学院,
   major   = 专业,
