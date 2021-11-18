@@ -1,3 +1,5 @@
+千呼万唤始出来，广工现在已有自己官方维护的 LaTeX 模板，请移步 [https://github.com/sikouhjw/gdutthesis](https://github.com/sikouhjw/gdutthesis)。
+
 # 广东工业大学毕业设计/论文LaTeX模板
 
 # 目录结构
